@@ -1257,7 +1257,11 @@ body {
   align-items: center;
 }
 
-.footer__icon + .footer__icon {
+.footer__icons a {
+  display: inline-block;
+}
+
+.footer__icons a + a {
   margin-left: 24px;
 }
 
