@@ -6,14 +6,14 @@ body {
   background-position: calc(50% + 500px) -178px;
 }
 
-@include responsible(790px) {
+@include responsible(871px) {
   body {
     background-size: 949px 949px;
     background-position: center -550px;
   }
 }
 
-@include responsible(700px) {
+@include responsible(769px) {
   body {
     background-size: 949px 949px;
     background-position: center -650px;
