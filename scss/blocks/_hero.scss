@@ -94,6 +94,7 @@
   border-radius: 35px;
   width: 263px;
   height: 500px;
+  box-shadow: 25px 25px 80px rgba(54, 83, 107, 0.300727);
 }
 
 @include responsible(910px) {
