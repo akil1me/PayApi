@@ -1,5 +1,5 @@
 .easy {
-  margin: 150px 0;
+  margin-top: 150px;
 }
 
 .easy__inner {
@@ -11,7 +11,8 @@
 .easy__img {
   width: 445px;
   height: 284px;
-  border-radius: 10px;
+  box-shadow: 25px 25px 80px rgba(54, 83, 107, 0.300727);
+  border-radius: 8px;
 }
 
 .easy__content {
@@ -44,7 +45,7 @@
 
 @include responsible(962px) {
   .easy {
-    margin: 100px 0;
+    margin-top: 100px;
   }
 
   .easy__inner {
@@ -53,21 +54,19 @@
   }
 
   .easy__content {
-    max-width: 100%;
+    max-width: 90%;
   }
 
   .easy__img {
     margin-bottom: 48px;
     width: 392px;
     height: 250px;
-    box-shadow: 25px 25px 80px rgba(54, 83, 107, 0.300727);
-    border-radius: 8px;
   }
 }
 
 @include responsible(427px) {
   .easy {
-    margin: 80px 0;
+    margin-top: 80px;
   }
 
   .easy__img {

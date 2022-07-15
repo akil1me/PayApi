@@ -99,6 +99,9 @@
 @include responsible(910px) {
   .hero__img {
     margin: 0;
+    border-radius: 25px;
+    width: 159px;
+    height: 300px;
   }
 }
 
@@ -141,12 +144,6 @@
 
 
 @include responsible(768px) {
-  .hero__img {
-    border-radius: 25px;
-    width: 159px;
-    height: 300px;
-  }
-
   .hero__content {
     max-width: 85%;
   }

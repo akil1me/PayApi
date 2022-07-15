@@ -719,6 +719,9 @@ body {
 @media only screen and (max-width: 910px) {
   .hero__img {
     margin: 0;
+    border-radius: 25px;
+    width: 159px;
+    height: 300px;
   }
 }
 @media only screen and (max-width: 871px) {
@@ -751,11 +754,6 @@ body {
   }
 }
 @media only screen and (max-width: 768px) {
-  .hero__img {
-    border-radius: 25px;
-    width: 159px;
-    height: 300px;
-  }
   .hero__content {
     max-width: 85%;
   }
@@ -907,7 +905,7 @@ body {
   }
 }
 .easy {
-  margin: 150px 0;
+  margin-top: 150px;
 }
 
 .easy__inner {
@@ -919,7 +917,8 @@ body {
 .easy__img {
   width: 445px;
   height: 284px;
-  border-radius: 10px;
+  box-shadow: 25px 25px 80px rgba(54, 83, 107, 0.300727);
+  border-radius: 8px;
 }
 
 .easy__content {
@@ -951,26 +950,24 @@ body {
 }
 @media only screen and (max-width: 962px) {
   .easy {
-    margin: 100px 0;
+    margin-top: 100px;
   }
   .easy__inner {
     flex-direction: column;
     text-align: center;
   }
   .easy__content {
-    max-width: 100%;
+    max-width: 90%;
   }
   .easy__img {
     margin-bottom: 48px;
     width: 392px;
     height: 250px;
-    box-shadow: 25px 25px 80px rgba(54, 83, 107, 0.300727);
-    border-radius: 8px;
   }
 }
 @media only screen and (max-width: 427px) {
   .easy {
-    margin: 80px 0;
+    margin-top: 80px;
   }
   .easy__img {
     width: 328px;
@@ -983,6 +980,84 @@ body {
 }
 @media only screen and (max-width: 354px) {
   .easy__img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+.ui-ux {
+  padding: 150px 0;
+  background-image: url("../img/body-bg-top.png");
+  background-repeat: no-repeat;
+  background-size: 780px 780px;
+  background-position: calc(50% + 700px) center;
+}
+
+.ui-ux__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ui-ux__content {
+  max-width: 445px;
+}
+
+.ui-ux__title {
+  margin-bottom: 24px;
+  font-family: "DM Serif Display", serif;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.369231px;
+  color: #36536b;
+}
+
+.ui-ux__text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #6c8294;
+}
+
+@media only screen and (max-width: 975px) {
+  .ui-ux {
+    padding: 100px 0;
+    background-image: none;
+  }
+  .ui-ux__img {
+    width: 363px;
+    height: 320px;
+  }
+  .ui-ux__content {
+    margin-top: 48px;
+    max-width: 90%;
+  }
+  .ui-ux__inner {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 427px) {
+  .ui-ux {
+    padding: 80px 0;
+  }
+  .ui-ux__img {
+    width: 328px;
+    height: 290px;
+  }
+  .ui-ux__title {
+    font-size: 36px;
+    line-height: 36px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .ui-ux__img {
+    width: 290px;
+    height: 260px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .ui-ux__img {
     width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
